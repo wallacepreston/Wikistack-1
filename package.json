@@ -1,0 +1,32 @@
+{
+  "name": "wikistack-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacepreston/Wikistack-1.git"
+  },
+  "author": "Preston Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacepreston/Wikistack-1/issues"
+  },
+  "homepage": "https://github.com/wallacepreston/Wikistack-1#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "html-template-tag": "^2.0.0",
+    "marked": "^0.3.12",
+    "morgan": "^1.9.0",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.31.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
